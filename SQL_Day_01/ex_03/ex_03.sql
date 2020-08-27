@@ -1,0 +1,2 @@
+SELECT NOW () AS 'DATE';
+

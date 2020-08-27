@@ -1,0 +1,2 @@
+SELECT CONCAT(UCASE(LEFT(substring_index(lastname, ' ',1),1)), LCASE(SUBSTRING(substring_index(lastname, ' ',1),2)), '-', UCASE(LEFT(substring_index(firstname, ' ',-1),1)), LCASE(SUBSTRING(substring_index(firstname, ' ',-1),2))) as 'Full name'
+FROM profiles
